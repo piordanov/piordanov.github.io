@@ -39,15 +39,16 @@ h2
 {
 border-bottom: 1px solid #343434;
 }
-p
+h1
 {
-margin: 5px;
+  color: #000090;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 3px;
 }
-#container
+html
 {
-        background-color:#A9A9F5;
-        
-        display:block;
+ background-color: #EEF3E2;
 }
 
 #buttona ul {
@@ -67,7 +68,7 @@ margin: 5px;
 	color: #ff0 ;
 	background-color: #12127d;
 	border: 1px outset #9191ff;
-	padding: 8px;
+	padding: 4px;
 	text-decoration: none;
 	display: inline;
 }
