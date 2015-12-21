@@ -34,6 +34,9 @@ a:visited{color:0xFFCCCC !important;}
 #profile-picture
 {
 	margin-left: 20px;
+  max-width: 250px;
+  max-height: 250px;
+  width: auto;
 }
 h2
 {
