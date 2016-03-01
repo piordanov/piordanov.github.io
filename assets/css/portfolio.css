@@ -10,7 +10,7 @@ a:visited{color:0xFFCCCC !important;}
 	clear:both;
 }
 
-.floatright 
+.floatright
 {
 	margin:5px;
 	float:right;
@@ -52,8 +52,10 @@ h1
 }
 html
 {
- background-color: #EEF3E2;
+ 	background-color: #EEF3E2;
+	font-family: "Verdana", sans-serif;
 }
+
 
 #buttona ul {
 	margin: ;
