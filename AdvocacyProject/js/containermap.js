@@ -1,5 +1,7 @@
 d3.select(window).on("resize", throttle);
 
+var pagecountries = ["Bulgaria"];
+
 var zoom = d3.behavior.zoom()
     .scaleExtent([1, 9])
     .on("zoom", move);
@@ -83,6 +85,17 @@ function draw(topo) {
       })
       .on("mouseout",  function(d,i) {
         tooltip.classed("hidden", true);
+      })
+
+      .on("click", function(d,i) {
+          var c = d.properties.name;
+          console.log(c);
+          if(pagecountries.indexOf(c) != -1){
+              window.location = "countries/" + c + ".html";
+          }
+          else{
+              window.location = "countries/countrytemplate.html";
+          }
       });
 
 
@@ -148,9 +161,6 @@ function throttle() {
 function click() {
   var latlon = projection.invert(d3.mouse(this));
   console.log(latlon);
-
-
-  window.location = "countries/countrytemplate.html";
 }
 
 //function to add points and text to the map (used in plotting capitals)
