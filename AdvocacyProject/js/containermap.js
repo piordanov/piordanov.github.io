@@ -1,6 +1,6 @@
 d3.select(window).on("resize", throttle);
 
-var pagecountries = ["Bulgaria"];
+var pagecountries = ["Bulgaria", "United States", "Austria"];
 
 var zoom = d3.behavior.zoom()
     .scaleExtent([1, 9])

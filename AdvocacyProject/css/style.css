@@ -18,8 +18,8 @@ div.recipe{
   margin:0 15px 5px 0;
   font-weight: lighter;
 }
-.recipe h2{
-  font-size: 28px;
+.recipe h1{
+  font-weight: 900;
 }
 .navbar-default {
     background-color: #e67e22;
