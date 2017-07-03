@@ -1,85 +1,100 @@
-<html><head>
-	<!-- add styling to the assets/css folder-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Peter Iordanov</title>
+		
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" 
+			integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/portfolio.css">
-</head>
+	</head>
 
-<body cz-shortcut-listen="true">
+	<body>
 
-  <title>Peter Iordanov</title>
-	<h3>Peter Iordanov</h3>
-	<strong>Email: </strong><a href="mailto:iordano2@illinois.edu">iordano2@illinois.edu</a><br>
-	<strong>Github:</strong> <a href="http://www.github.com/piordanov">http://www.github.com/piordanov</a>
+		<div class="container">
+			<div class="header clearfix">
+				<ul class="nav nav-tabs" role="tablist">
+				<li class="nav-item">
+					<a class="nav-link active" data-toggle="tab" href="#home" role="tab">About Me</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="tab" href="#profile" role="tab">Projects/Stuff</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://github.com/piordanov"><img src="assets/img/GitHub-Mark-32px.png"/></a>
+				</li>
+				</ul>
+				<h3 class="text-center">Peter Iordanov</h3>
+				<h5 class="text-muted text-center">Computer Science, UIUC 2017</h5>
+			</div>
 
-	<p>I am currently an undergraduate student at the University of Illinois at Urbana-Champaign working on a Bachelor's in Computer Science at the College of Engineering.
-		Currently my interests in Computer Science involve computer science education, graph and tree data structures, and computer parallelism.
-		My hobbies include video game development, poetry, and gaming.
-	</p>
+			<div class="tab-content">
+				<div class="tab-pane active" id="home" role="tabpanel">
+					<div class="row">
+						<div class="col-3">
+							<img src="assets/img/profile.jpg" class="img-thumbnail"/>
+						</div>
+						<div class="col-8">
+							<p>
+								Currently a software engineer intern at Fulcrum GT. 
+							</p>
+							<br />
+							<p>
+								I hold a BS Degree in Computer Science from the <a href="cs.illinois.edu">University of Illinois at Urbana-Champaign</a>.
+							</p>
+						</div>	
+					</div>
 
-	<p>While at UIUC, I have been involved in Game-Buildathons, internships, and many other activities.</p>
+				</div>
+				<div class="tab-pane" id="profile" role="tabpanel">
+					<div class="card-deck">
+						<div class="col-md-4 col-centered">
+							<div class="card text-center">
+								<div class="card-block">
+									<h4 class="card-title">Project Cat</h4>
+									<p class="card-text">A VR project for CS 498 VR where several developers and designers made a multiplayer fighting game.</p>
+									<a href="https://github.com/piordanov/ProjectCat" class="btn btn-primary">Source</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-centered">
+							<div class="card text-center">
+								<div class="card-block">
+									<h4 class="card-title">SAIL CS@UIUC</h4>
+									<p class="card-text">I've taught several classes for high school students ranging from Conway's Game of Life to Virtual Reality.</p>
+									
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-centered">
+							<div class="card text-center">
+								<div class="card-block">
+									<h4 class="card-title">Imperium</h4>
+									<p class="card-text">A card game I'm in the early stages of designing, inspired mostly from Dominion. Planning to develop a online version.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<br />
+					<div class="card-deck">
+						<div class="col-md-4 col-centered">
+							<div class="card text-center">
+								<div class="card-block">
+									<h4 class="card-title">This Portfolio</h4>
+									<p class="card-text">Always a work in progress.</p>
+								</div>
+							</div>
+						</div>
 
-	<p>Take a second to look at my <a href="assets/Resume.pdf"><strong>resume</strong></a>!</p>
+					</div>
+				</div>
 
+			</div>
+		</div>
 
-	</div>
-  <div>
-  <img id="profile-picture" src="assets/img/Peter_Iordanov.jpg" class="profile-picture">
-  </div>
-
-  <h2>Current Projects</h2>
-    <dl>
-        <dt><h3>Sail Teaching</h3></dt>
-        <dd>I have given lectures on Conway's Game of Life for high school students visiting UIUC. Slides from one of my lectures are located
-					<a href="https://docs.google.com/presentation/d/1PcGNOfoL4aKPVV63uUl_wCEB4D-b5UuT1GUIczI40F4/edit?usp=sharing">in these Google Slides</a>.
-        </dd>
-
-        <dt><h3>Project Wargame / Imperial Strife</h3></dt>
-        <dd> An independent project with some friends of mine with a goal to bring an old game into a new era. Inspiration comes from
-					<a href="http://www.classicempire.com/">Walter Bright's Empire: Wargame of the Century</a> Still a work in progress. A new github may be made soon since a change in game engine is in order.
-        </dd>
-    </dl>
-	<h2>Internships</h2>
-	<dl>
-		<dt><h3>Mocho Trading LLC</h3></dt>
-			<dd>
-				I worked at Mocho Trading LLC as an intern in the summer of 2014, where I worked on transforming trade data from a SQL database into a series of standard and more usable formats for the company through Java.
-			</dd>
-		</dt>
-	</dl>
-
-	<h2>Past Projects</h2>
-
-
-    <dl> <!-- beginning of definition list -->
-
-			<dt><h3>Eagle Scout</h3></dt>
-			<dd>
-				 One of my greatest acheivements was to earn Scouting's highest acheivement, Eagle Rank.
-				 <p>
-					 One of the requirements to earn Boy Scouting's highest rank, Eagle, is to "plan, develop, and give leadership to a service project for any religious organization or any school or community."
-				 My Eagle Scout Project involved landscaping around my home parish of Sts. Peter and Paul Ukrainian Orthodox Church. I planned when the project would take place, and got approval from both the parish and Scouting officials to go ahead with the project. Projects around the parish grounds included replacing the liner and rocks on one side of the hall, placing grass seed and new dirt around the hall, thorough weeding, and painting the church's picnic benches.
-				 The project was a huge success, and the parish community has been grateful since.
-			 	 </p>
-				 <a href="http://www.scouting.org/scoutsource/sitecore/content/Scouting/About/FactSheets/EagleScouts.aspx">Click here</a> for further information on the requirements to earn Eagle rank.
-			</dd>
-
-			<dt><h3>Voronoi Applet</h3></dt>
-			<dd>
-				I designed a Java applet to display Voronoi diagrams during my research internship at the <a href= "http://www.upcomillas.es/en/">Comillas Pontificial University</a> in Madrid, Spain. The applet itself and its details are available on my <a href="https://github.com/piordanov/Voronoi">Github</a>. There you can download and run it on your system as long as you have Java 8. It's still a work in progress so please PM me if you discover any bugs or have any comments.
-			</dd>
-
-			<dt><h3><a href="https://github.com/piordanov/GET-Lit/releases">GET Lit!</a></h3></dt>
-			<dd>
-				A videogame made in GameMaker Studio for a 12 hour hackathon sponsored by GameBuilders, where you are a little ball named Lit being chased by missles and a continuously darkened sight.
-			</dd>
-
-    </dl><!-- end of definition list -->
-
-
-	</div>
-
-
-
-	<!-- add javascript code to the assets/js folder-->
-	<script type="text/javascript" src="assets/js/portfolio.js"></script>
-
-</body></html>
+	</body>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</html>
