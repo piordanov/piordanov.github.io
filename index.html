@@ -5,8 +5,9 @@
 		
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" 
 			integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="assets/css/portfolio.css">
 	</head>
 
@@ -14,84 +15,96 @@
 
 		<div class="container">
 			<div class="header clearfix">
-				<ul class="nav nav-tabs" role="tablist">
-				<li class="nav-item">
-					<a class="nav-link active" data-toggle="tab" href="#home" role="tab">About Me</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" data-toggle="tab" href="#profile" role="tab">Projects/Stuff</a>
-				</li>
+				<ul class="nav nav-tabs">
 				<li class="nav-item">
 					<a class="nav-link" href="https://github.com/piordanov"><img src="assets/img/GitHub-Mark-32px.png"/></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link cv" href="assets/resume.pdf">CV</a>
+					<a class="nav-link" href="assets/resume.pdf">Resume</a>
 				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://www.linkedin.com/in/peter-iordanov-44150294/">LinkedIn</a>
+				</li>				
 				</ul>
-				<h3 class="text-center">Peter Iordanov</h3>
-				<h5 class="text-muted text-center">Computer Science, UIUC 2017</h5>
 			</div>
-
-			<div class="tab-content">
-				<div class="tab-pane active" id="home" role="tabpanel">
-					<div class="row">
-						<div class="col-3">
-							<img src="assets/img/profile.jpg" class="img-thumbnail"/>
-						</div>
-						<div class="col-8">
-							<p>
-								Currently a software engineer intern at Fulcrum GT. 
-							</p>
-							<br />
-							<p>
-								I hold a BS Degree in Computer Science from the <a href="cs.illinois.edu">University of Illinois at Urbana-Champaign</a>.
-							</p>
-						</div>	
-					</div>
-
+		</div>
+		<div class="jumbotron">
+			<h2 class="text-center">Peter Iordanov</h2>
+			<h5 class="text-muted text-center">Computer Science, UIUC 2017</h5>
+			<div class="row">
+				<div class="col-3">
+					<img src="assets/img/profile.jpg" class="img-thumbnail"/>
 				</div>
-				<div class="tab-pane" id="profile" role="tabpanel">
-					<div class="card-deck">
-						<div class="col-md-4 col-centered">
-							<div class="card text-center">
-								<div class="card-block">
-									<h4 class="card-title">Project Cat</h4>
-									<p class="card-text">A VR project for CS 498 VR where several developers and designers made a multiplayer fighting game.</p>
-									<a href="https://github.com/piordanov/ProjectCat" class="btn btn-primary">Source</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-centered">
-							<div class="card text-center">
-								<div class="card-block">
-									<h4 class="card-title">SAIL CS@UIUC</h4>
-									<p class="card-text">I've taught several classes for high school students ranging from Conway's Game of Life to Virtual Reality.</p>
-									
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-centered">
-							<div class="card text-center">
-								<div class="card-block">
-									<h4 class="card-title">Imperium</h4>
-									<p class="card-text">A card game I'm in the early stages of designing, inspired mostly from Dominion. Planning to develop a online version.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<br />
-					<div class="card-deck">
-						<div class="col-md-4 col-centered">
-							<div class="card text-center">
-								<div class="card-block">
-									<h4 class="card-title">This Portfolio</h4>
-									<p class="card-text">Always a work in progress.</p>
-								</div>
-							</div>
-						</div>
-
-					</div>
+				<div class="col-md-8">
+					<p>
+						I am a legal software engineering intern at Fulcrum GT in Chicago, Illinois building software solutions to help lawyers better visualize their legal data.
+						Our team is using Django to manage a Tensorflow predictive model and serve a React frontend.
+					</p>
+					<p>
+						I hold a BS Degree in Computer Science from the <a href="cs.illinois.edu">University of Illinois at Urbana-Champaign</a>. 
+						I am a Chicago native who loves to dabble in game design and Virtual Reality.
+					</p>
+				</div>	
+			</div>
+		</div>
+		<div class="container">
+			<h2 class="text-center">Projects</h2>
+			<div class="row">
+				<div class="col-md-12">
+					<h4>Project Cat</h4>
+					<h5>Spring 2017</h5>
+					<p>A Virtual Reality project for CS 498 VR where several developers and designers (including myself) made a multiplayer fighting game. 
+						We made our own hand tracking controls and set up multiplayer networking using Photon Cloud.</p>
+					<a href="https://github.com/piordanov/ProjectCat" class="btn btn-primary">Source</a>
+					<hr>
 				</div>
+
+				<div class="col-md-12">
+					<h4>SAIL CS@UIUC</h4>
+					<h5>2015-2017</h5>
+					<p>I've taught several classes for high school students while at The University of Illinois. 
+						I planned and led Virtual Reality workshops in our University's own VR Lab, and given lectures on Conway's Game of Life and Data Structures.</p>
+					<hr>
+				</div>
+				<div class="col-md-12">
+					<h4>Eagle Scout</h4>
+					<h5>2013</h5>
+					<p>
+					One of my greatest achievements was to earn Scouting's highest acheivement, Eagle Rank.<br/>
+					Among the requirements to earn Boy Scouting's highest rank, Eagle, is to "plan, develop, and give leadership to a service project for any religious organization or any school or community."
+					My Eagle Scout Project involved landscaping around my home parish of Sts. Peter and Paul Ukrainian Orthodox Church. I planned when the project would take place, and got approval from both the parish and Scouting officials to go ahead with the project. Projects around the parish grounds included replacing the liner and rocks on one side of the hall, placing grass seed and new dirt around the hall, thorough weeding, and painting the church's picnic benches.
+					The project was a huge success, and the parish community has been grateful since.
+			 	 	</p>
+				 	<a href="http://www.scouting.org/scoutsource/sitecore/content/Scouting/About/FactSheets/EagleScouts.aspx">Click here</a> for further information on the requirements to earn Eagle rank.
+					<hr>
+				</div>
+				<div class="col-md-12">
+					<h4 >Imperium</h4>
+					<h5>2015-Ongoing</h5>
+					<p>A card game I'm in the early stages of designing, inspired mostly from Dominion. Planning to develop a online version.</p>
+					<hr>
+				</div>
+				<div class="col-md-12">
+					<h4>Voronoi Applet</h4>
+					<h5>2014</h5>
+					<p>
+					I designed a Java applet to display Voronoi diagrams during my research internship at the <a href= "http://www.upcomillas.es/en/">Comillas Pontificial University</a> in Madrid, Spain. The applet itself and its details are available on my <a href="https://github.com/piordanov/Voronoi">Github</a>. There you can download and run it on your system as long as you have Java 8. It's still a work in progress so please PM me if you discover any bugs or have any comments.
+					</p>
+					<hr>
+				</div>
+				<div class="col-md-12">
+					<h4>GET Lit!</h4>
+					<p>
+					A videogame made in GameMaker Studio for a 12 hour hackathon sponsored by GameBuilders, where you are a little ball named Lit being chased by missles and a continuosly darkened sight. You can play it <a href="https://github.com/piordanov/GET-Lit/releases">here</a>!
+					</p>
+					<hr>
+				</div>
+				<div class="col-12">
+					<h4> Portfolio Website </h4>
+					<p> Hand coded myself using Bootstrap, HTML, and CSS.</p>
+					<hr>
+				</div>
+				<hr>
 
 			</div>
 		</div>
