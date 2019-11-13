@@ -1,0 +1,15 @@
+.header {
+    width: 13rem;
+}
+
+.project-item {
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+    line-height: 1.8rem;
+    &:hover {
+        text-decoration-line: underline;
+    }
+}
+
+

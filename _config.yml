@@ -1,2 +1,6 @@
 name: Peter Iordanov
 markdown: kramdown
+collections:
+  projects:
+    output: true
+    sort_by: order

@@ -1,7 +1,12 @@
-<nav>
+<nav class="flex flex-column h-100 header">
   {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+  <!-- {% if page.url == item.link %}style="color: red;"{% endif %} -->
+    <a class="project-item" href="{{ item.link }}" >
       {{ item.name }}
     </a>
+  {% endfor %}
+  <h3>Projects</h3>
+  {% for project in site.projects %}
+      <a class="project-item" href="{{ project.url }}">{{ project.title }}</a>
   {% endfor %}
 </nav>
